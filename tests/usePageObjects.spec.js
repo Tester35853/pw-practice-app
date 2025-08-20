@@ -1,7 +1,7 @@
 import {expect, test} from '@playwright/test'
 import {NavigationPage} from '../page-objects/navigationPage'
 import {FormsLayoutsPage} from '../page-objects/formsLayoutsPage'
-import { DatepickerPage } from '../page-objects/datePickerPage'
+import {DatepickerPage} from '../page-objects/datePickerPage'
 import {faker}  from '@faker-js/faker'
 
 test.beforeEach(async({page}) => {
