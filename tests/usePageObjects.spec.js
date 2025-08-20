@@ -8,7 +8,7 @@ test.beforeEach(async({page}) => {
     await page.goto("/")
 })
 
-test('navigate to form page @smoke', async({page}) => {
+test.only('navigate to form page @smoke', async({page}) => {
     const navigateTo = new NavigationPage(page)
     await navigateTo.fromLayoutsPage()
     await navigateTo.datepickerPage()
