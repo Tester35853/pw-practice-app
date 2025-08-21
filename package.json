@@ -10,7 +10,8 @@
     "ng": "ng",
     "start": "ng serve",
     "pageObjects-chrome": "npx playwright test usePageObjects.spec.js --project=chromium",
-    "firstTest-chrome": "npx playwright test firstTest.spec.js --project=chromium"
+    "firstTest-chrome": "npx playwright test firstTest.spec.js --project=chromium",
+    "firstTest": "npx playwright test dragAndDrops.spec.js --project=chromium"
   },
   "overrides": {
     "stylus": "github:stylus/stylus#0.54.5"
